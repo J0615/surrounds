@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "981894249192",
+    "project_id": "surrounds-8f6ea",
+    "storage_bucket": "surrounds-8f6ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981894249192:android:0cab0d82e8453c5ccde75d",
+        "android_client_info": {
+          "package_name": "edu.neu.madcourse.surrounds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981894249192-6gasjprpqtj549cfcitm8ru4mf3iltrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZEhQwg9ebHwB17KUdTLTY117-5ZC5dmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981894249192-6gasjprpqtj549cfcitm8ru4mf3iltrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
