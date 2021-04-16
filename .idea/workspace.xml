@@ -9,9 +9,22 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="59aa01df-bffd-449f-a712-fcf18f3c88a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/edu/neu/madcourse/surrounds/ui/home/HomeFragment.java" afterDir="false" />
+    <list default="true" id="59aa01df-bffd-449f-a712-fcf18f3c88a2" name="Default Changelist" comment="add map view">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +66,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Signing Configs" />
@@ -133,7 +146,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\yyqya\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -143,7 +156,31 @@
       <option name="presentableId" value="Default" />
       <updated>1618522282347</updated>
     </task>
+    <task id="LOCAL-00001" summary="add map view">
+      <created>1618552823650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618552823650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add map view" />
+    <option name="LAST_COMMIT_MESSAGE" value="add map view" />
   </component>
   <component name="WindowStateProjectService">
     <state x="181" y="53" key="#PSD" timestamp="1618523284598">
@@ -170,42 +207,66 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="378" y="120" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1618530291248" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1618548931239">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1618595952331">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618548931239" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1618595952331" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1618595172144">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618595172144" />
     <state x="520" y="239" key="Github.ShareDialog" timestamp="1618552325275">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="520" y="239" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1618552325275" />
-    <state width="1236" height="159" key="GridCell.Tab.0.bottom" timestamp="1618551942374">
+    <state width="1220" height="156" key="GridCell.Tab.0.bottom" timestamp="1618593831920">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="159" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618551942374" />
-    <state width="1236" height="159" key="GridCell.Tab.0.center" timestamp="1618551942374">
+    <state width="1220" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618593831920" />
+    <state width="1220" height="156" key="GridCell.Tab.0.center" timestamp="1618593831919">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="159" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618551942374" />
-    <state width="1236" height="159" key="GridCell.Tab.0.left" timestamp="1618551942373">
+    <state width="1220" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618593831919" />
+    <state width="1220" height="156" key="GridCell.Tab.0.left" timestamp="1618593831919">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="159" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618551942373" />
-    <state width="1236" height="159" key="GridCell.Tab.0.right" timestamp="1618551942374">
+    <state width="1220" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618593831919" />
+    <state width="1220" height="156" key="GridCell.Tab.0.right" timestamp="1618593831920">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="159" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618551942374" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1618552790095">
+    <state width="1220" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618593831920" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1618552880688">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1618552790095" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1618552880688" />
+    <state x="336" y="45" key="VCS.ChangeListViewerDialog" timestamp="1618595257699">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="336" y="45" key="VCS.ChangeListViewerDialog/0.0.1280.680@0.0.1280.680" timestamp="1618595257699" />
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2" timestamp="1618596008588">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="101" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1618596008588" />
     <state x="604" y="132" key="chooseDestDirectoryDialog" timestamp="1618530332352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="132" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1618530332352" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618552261786">
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618552849846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1618552261786" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1618552849846" />
+    <state x="426" y="129" key="git4idea.merge.GitMergeDialog" timestamp="1618596037508">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="426" y="129" key="git4idea.merge.GitMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1618596037508" />
+    <state x="446" y="202" key="git4idea.rebase.GitRebaseDialog" timestamp="1618596279119">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="202" key="git4idea.rebase.GitRebaseDialog/0.0.1280.680@0.0.1280.680" timestamp="1618596279119" />
+    <state x="437" y="235" key="git4idea.ui.GitResetDialog" timestamp="1618596058110">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="235" key="git4idea.ui.GitResetDialog/0.0.1280.680@0.0.1280.680" timestamp="1618596058110" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1618533060480">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
